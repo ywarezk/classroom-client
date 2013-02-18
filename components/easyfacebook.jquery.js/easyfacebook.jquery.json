@@ -1,0 +1,37 @@
+{
+    "name": "easyfacebook",
+    "title": "easyfacebook.jquery.js",
+    "description": "Facebook javascript developement starter kit",
+    "keywords": [
+        "facebook",
+        "api",
+        "graph",
+        "fql"
+    ],
+    "version": "0.0.13",
+    "author": {
+        "name": "Etienne Dion",
+        "url": "http://www.etiennedion.com"
+    },
+    "demo": "http://etiennedion.com/easyfacebook/",
+    "maintainers": [
+        {
+            "name": "Etienne Dion",
+            "email": "dionetienne@gmail.com",
+            "url": "http://www.etiennedion.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/EtienneDion/easyfacebook.jquery.js/blob/master/LICENSE-MIT.txt"
+        }
+    ],
+    "bugs": "https://github.com/EtienneDion/easyfacebook.jquery.js/issues",
+    "homepage": "https://github.com/EtienneDion/easyfacebook.jquery.js",
+    "docs": "https://github.com/EtienneDion/easyfacebook.jquery.js",
+    "download": "https://raw.github.com/EtienneDion/easyfacebook.jquery.js/master/easyfacebook.jquery.js-0.0.13.zip",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}

@@ -1,0 +1,30 @@
+@import "compass_twitter_bootstrap";
+@import "compass_twitter_bootstrap_responsive";
+@import "compass_twitter_bootstrap_awesome";
+
+$base-font-size: 16px;
+$base-line-height: 24px;
+@include establish-baseline;
+
+/*@include font-face("Quicksand_Book", font-files("Quicksand_Book-webfont.ttf", "Quicksand_Book-webfont.woff", "Quicksand_Book-webfont.svg", "Quicksand_Book-webfont.eot"));*/
+
+body{
+	/*font-family: "Quicksand_Book", ariel, sans-serif;*/
+	padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+#footer{
+	background-color: #F5F5F5;
+	height: 36px;
+}
+
+
+.footer-links {
+    margin: 10px 0;
+}
+
+.footer-links li {
+    display: inline;
+    padding: 0 2px;
+}

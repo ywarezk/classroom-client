@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="app/scripts/routes/|app/scripts/|test/lib/mocha-1.2.2/|test/runner/|app/scripts/controllers/|app/scripts/views/|test/lib/|app/scripts/vendor/|app/scripts/models/" kind="src" path=""/>
+	<classpathentry excluding="routes/|controllers/|views/|vendor/|models/" kind="src" path="app/scripts"/>
+	<classpathentry kind="src" path="app/scripts/controllers"/>
+	<classpathentry kind="src" path="app/scripts/models"/>
+	<classpathentry kind="src" path="app/scripts/routes"/>
+	<classpathentry kind="src" path="app/scripts/vendor"/>
+	<classpathentry kind="src" path="app/scripts/views"/>
+	<classpathentry excluding="mocha-1.2.2/" kind="src" path="test/lib"/>
+	<classpathentry kind="src" path="test/lib/mocha-1.2.2"/>
+	<classpathentry kind="src" path="test/runner"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

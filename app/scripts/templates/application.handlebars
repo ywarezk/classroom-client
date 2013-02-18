@@ -1,0 +1,46 @@
+
+
+
+<div class="container">
+
+	<!-- begin header -->
+	<div class="row">
+		<button class="btn pull-right" {{action "fblogin"}}>Login</button>
+	</div>
+	<div class="masthead">
+              <ul class="nav nav-pills pull-right">
+                <li {{bindAttr class="isHome:active"}}><a href="#">Home</a></li>
+                <li {{bindAttr class="isAbout:active"}}>{{#linkTo "about"}}About{{/linkTo}}</li>
+                <li {{bindAttr class="isContact:active"}}><a href="#contact">Contact</a></li>
+              </ul>
+              <h3 class="muted">ClassRoom</h3>
+	</div>
+	<hr/>
+	<!-- end header -->
+	
+	<!-- begin document main content -->
+	<div class="row">
+            {{firstName}} {{lastName}}
+            {{#linkTo login}}login{{/linkTo}}
+            {{outlet}}
+	</div>
+	<!-- end document main content -->
+	
+	<!-- begin footer -->
+	<div id="footer" class="navbar-fixed-bottom">
+      <div class="container">
+      	<div class="row">
+  		    <ul class="footer-links pull-left">
+  		    	<li><a href="#">Terms of use</a></li>
+  		    	<li class="muted">·</li>
+		    	<li><a href="#">Privacy</a></li>
+		    </ul>
+	        <p class="muted credit pull-right" style="margin-top: 10px;">ClassRoom © 2013</p>
+	    </div>
+      </div>
+    </div>
+	<!-- end footer -->
+	
+</div>
+
+

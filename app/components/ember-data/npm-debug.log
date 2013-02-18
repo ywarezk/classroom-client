@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'nodejs', '/usr/bin/npm', 'install', 'ember-data', '-g' ]
+2 info using npm@1.2.9
+3 info using node@v0.8.19
+4 verbose read json /usr/lib/package.json
+5 verbose read json /usr/lib/package.json
+6 verbose cache add [ 'ember-data', null ]
+7 verbose cache add name=undefined spec="ember-data" args=["ember-data",null]
+8 verbose parsed url { pathname: 'ember-data',
+8 verbose parsed url   path: 'ember-data',
+8 verbose parsed url   href: 'ember-data' }
+9 silly lockFile c09f6553-ember-data ember-data
+10 verbose lock ember-data /home/ywarezk/.npm/c09f6553-ember-data.lock
+11 silly lockFile c09f6553-ember-data ember-data
+12 verbose addNamed [ 'ember-data', '' ]
+13 verbose addNamed [ null, '' ]
+14 silly lockFile 116bb4bd-ember-data ember-data@
+15 verbose lock ember-data@ /home/ywarezk/.npm/116bb4bd-ember-data.lock
+16 silly lockFile 116bb4bd-ember-data ember-data@
+17 error Error: EACCES, open '/home/ywarezk/.npm/116bb4bd-ember-data.lock'
+17 error  { [Error: EACCES, open '/home/ywarezk/.npm/116bb4bd-ember-data.lock']
+17 error   errno: 3,
+17 error   code: 'EACCES',
+17 error   path: '/home/ywarezk/.npm/116bb4bd-ember-data.lock' }
+18 error Please try running this command again as root/Administrator.
+19 error System Linux 3.5.0-17-generic
+20 error command "nodejs" "/usr/bin/npm" "install" "ember-data" "-g"
+21 error cwd /home/ywarezk/Documents/workspace/Classroom_Client/app/components/ember-data
+22 error node -v v0.8.19
+23 error npm -v 1.2.9
+24 error path /home/ywarezk/.npm/116bb4bd-ember-data.lock
+25 error code EACCES
+26 error errno 3
+27 error stack Error: EACCES, open '/home/ywarezk/.npm/116bb4bd-ember-data.lock'
+28 verbose exit [ 3, true ]
